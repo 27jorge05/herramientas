@@ -1,0 +1,445 @@
+*{
+    padding: 0;
+    border: 0;
+}
+#font{
+    background-color: rgba(156, 140, 243, 0.438);
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    z-index: 12;
+    top: 0;
+    position: fixed;
+    
+}
+header{
+    display: flex;
+    height: 100px;
+   border: 2px solid rgb(165, 190, 248);
+    /**background-color: rgb(75, 86, 121);**/
+    background: linear-gradient(170deg, rgb(75, 86, 121),rgb(98, 110, 146),rgb(98, 110, 146) , rgba(139, 162, 184, 0.96));
+
+    width: 98.7%;
+
+    flex-direction: column;
+
+}
+header #sol{
+    display: flex;
+    height: 60%;
+    padding-left: 12px;
+}
+#actual{
+    background-color: rgb(66, 54, 173);
+    border: rgb(0, 0, 0) 2px solid;
+    opacity: 1;
+    
+}
+header #options{
+    display: flex;
+    width: 70%;
+    align-items: center;
+    font-size: 1.5em;
+    justify-content: space-evenly;
+    font-weight: 550;
+    z-index: 2;
+    }
+header #logo{
+   display: flex;
+    width: 30%;
+   align-items: center;
+}
+header span{
+    color: rgba(223, 29, 29, 0.746);
+    font-size: 1.2em;
+}
+header h1{
+    color: rgb(95, 123, 187);
+
+
+    text-shadow: 1px 2px 4px black;
+}
+header  img{
+    width: 40px;
+
+}
+header #sol2 a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+}
+header .sub {
+    background-color: rgb(125, 117, 197);
+    border: rgb(58, 39, 88) 2px solid;
+    padding-left: 4px;
+    padding-right: 4px;
+    display: flex;
+    color: rgb(43, 36, 107);
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    z-index: 10;
+    bottom: 20px;
+    opacity: 0.6;
+    text-decoration: none;
+
+}
+ .sub:hover{
+    background-color: rgb(66, 54, 173);
+    border: rgb(0, 0, 0) 2px solid;
+    opacity: 0.8;
+    text-decoration: none;
+
+}
+#sol2{
+    display: flex;
+    height: 40%;
+    margin-left: 12px;
+}
+header #busqueda{
+    width: 80%;
+    display: flex;
+    align-items: center;
+}
+header input{
+    width: 100%;
+    border-radius: 5px;
+    height: 20px;
+}
+#sol2 label {
+    font-size: 25px;
+    font-weight: 540;
+    margin-right: 8px;
+}
+body{
+    background-color: rgb(243, 217, 182);
+    padding: 0;
+   
+
+
+    align-items: center;
+    position: relative;
+}
+#cuerpo{
+    width: 98%;
+    height: 400px;
+    display: flex;
+    margin-left: 1%;
+    overflow: hidden;
+    border: rgb(65, 0, 139) 2px outset;
+    box-shadow: 4px  4px 8px 4px rgb(133, 89, 163) ,-2px  -2px 12px 1px rgb(171, 139, 192)  ;
+
+}
+#cuerpo >div >div {
+    width: 100%;
+
+}
+#cuerpo >#carouselExampleCaptions {
+    width: 100%;
+
+}
+#cuerpo >div >div img { 
+    position: relative;
+    top: -20px;
+}
+
+#cuerpo .carousel-caption {
+    top: 150px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-style: italic;
+    opacity: 0;
+    display: flex;
+    flex-direction: column;
+    height: 170px;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+#cuerpo:hover .carousel-caption {
+    box-shadow: -2px -2px 10px 2px rgb(165, 108, 42),2px 2px 8px 4px rgb(165, 108, 42);
+    background-color: rgb(219, 181, 145);
+    border-radius: 25px;
+    color: black;
+    border: 2px solid rgb(98, 66, 5);
+    opacity: 1;
+    
+}
+#cuerpo .carousel-caption h5{
+    font-size: 1.2em;
+    font-weight: bolder;
+
+
+}
+main{
+    margin-top: 100px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+footer{
+    display: flex;
+    width: 100%;
+    background-color: rgba(246, 161, 122, 0.589);
+    position: fixed;
+    bottom: 0;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#foot{
+    background-color: rgb(0, 0, 0,0.722);
+    height: 30px;
+    width: 99.9%;
+    justify-content: space-evenly;
+    color: blanchedalmond;
+    text-decoration: underline;
+    display: flex;
+    align-items: center;
+}
+#foot p {
+    width: 35%;
+    text-align: center; 
+    display: flex;
+    align-items: center;
+}
+#señuelo{
+    background-color:rgba(0, 0, 0);
+    height: 30px;
+    width: 99.9%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#señuelo #p65{
+    color: white;
+    width: 65%;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    text-align: center;
+}
+#señuelo #p35{
+    width: 35%;
+    display: flex;
+    justify-content: flex-end;
+
+}
+#señuelo #p35 div{
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+#señuelo #p35 div img{
+    width: 30px ;
+    
+}
+main #bloque{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    height: 100%;
+
+}
+main #part1{
+    width: 20%;
+    
+    position: fixed;
+    left: 0;
+    top: 100px;
+    margin-bottom: 100px;
+}
+#part1 ul{
+    border-bottom: 1px solid black;
+}
+#part1 #menu button{
+    width: 100%;
+    border-top:1px solid black ;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-weight: bolder;
+    background-color: rgb(221, 235, 240);
+    
+}
+#part1 #menu button:hover{
+    background-color: rgb(148, 183, 223);
+    color: brown;
+    
+}
+main #part2{
+    width: 80%;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+}
+#part2{
+    display: flex;
+    justify-content: space-evenly;
+    height: max-content;
+    flex-wrap: wrap;
+
+}
+#part2>.ficha{
+    height: 350px;
+    width: 210px;
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    position: relative;
+    margin:  20px;
+    border: 2px solid rgb(179, 155, 24);
+}
+#part2 > .ficha >img {
+    display: flex;
+    height: 150px;
+
+}
+#part2 > .ficha >p {
+    color: rgb(25, 25, 200);
+    font-size: 0.9em;
+    width: 100%;
+    padding: 2px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 0;
+}
+#part2 > .ficha >p:hover {
+    text-decoration: underline;
+}
+#part2 > .ficha >h1{
+    text-align: end;
+    height: 30px;
+    font-size: 1.4em;
+    font-weight: bolder;
+    margin: 0;
+    
+}
+#part2 > .ficha #cont{
+    display: flex;
+    width: 100%;
+    height: 30px;
+
+}
+#part2 > .ficha #cont h1{
+    display: flex;
+    width: 50%;
+    height: 30px;
+    font-size: 1em;
+    text-align: center;
+    font-size: 1.4em;
+    font-weight: bolder;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+
+#part2  .ficha  .acar  {
+    display: flex;
+    background-color: rgb(53, 221, 23);
+    color: white;
+    font-weight: bolder;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    border-top:2px solid rgb(179, 155, 24) ;
+
+}
+#part2  .ficha  .acar:hover {
+    background-color: rgb(96, 165, 96);
+    color: rgb(186, 241, 245);
+
+}
+#part2  .ficha  .acar  img {
+    width: 1.5em;
+    margin-left:15px ;
+
+}
+.promocion{
+    position: absolute;
+    right: 5px;
+    top:95px;
+    max-height: 80px;
+    width: 82px;
+    
+}
+#registrar {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+
+}
+#registrar form{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    border: 2px rgb(80, 45, 136) solid;
+    box-shadow: 2px 2px 8px 4px rgba(101, 81, 134, 0.739);
+    
+}
+#registrar form section{
+    width: 100%;
+    display: flex;
+    border: 1px solid rgb(81, 57, 109);
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: cornsilk;
+    padding: 20px;
+}
+#registrar form section p , #registrar form section input , #registrar form section article {
+    width: 30%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+#registrar form section input{
+    border: 2px solid rgba(62, 41, 82, 0.465);
+    border-radius: 5px;
+}
+#registrar form section p  {
+    width: 30%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3em;
+    font-style: italic;
+    height: 100%;
+    margin-bottom: 0;
+}
+#registrar >form #but{
+    width: 20%;
+    background-color: rgb(191, 240, 240);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    height: 40px;
+}
+#registrar>form>a{
+    width: 100%;
+    padding-bottom: 20px;
+    padding-top: 5px;
+    color: cornflowerblue;
+    font-weight: bolder;
+    font-size: 1.2em;
+    border: 2px solid rgb(132, 170, 187);
+    display: flex;
+    justify-content: center;
+}
+#registrar>form>a:hover{
+
+    color:  rgb(130, 143, 185);
+    text-decoration: underline;
+
+}
+
